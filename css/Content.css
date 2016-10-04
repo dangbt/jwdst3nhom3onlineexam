@@ -1,31 +1,25 @@
 .Left_content {
-	width: 200px;
-	height: auto;
+	width: 20%;
+	height: 1125px;
 	float: left;
-	margin: 50px 0 0 40px;
-	border-right:solid #ccc 2px;
+
+
+	padding-top:80px;
+}
+.Center_content {
+	width: 60%;
+	float: left;
+	height: 1125px;
+
+	padding-top:80px;
+}
+.Right_content {
+	height: 1125px;
+	width: 20%;
+	float: right;
+
 	
 }
 .Left_menu{
-	
-	padding-right:30px;
-	
-	
-
-}
-
-.Center_content {
-	width: 588px;
-	float: left;
-	height: auto;
-}
-.Right_content {
-	height: 100%;
-	width: 180px;
-	float: right;
-	border-left: solid #666 2px;
-	background-color: #ccc;
-}
-.list-group{
-	 box-shadow: 10px 10px 5px grey;
+box-shadow: 10px 10px 5px grey;
 }
