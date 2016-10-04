@@ -3,7 +3,8 @@
 	width: 100%;
 }
 .affix + .container-fluid {
-	padding-top: 70px;x
+	padding-top: 70px;
+
 }
 .modal-header, h4, .close {
 	background-color: #5cb85c;
@@ -14,18 +15,29 @@
 .modal-footer {
 	background-color: #f9f9f9;
 }
-.image{
-	width:100%;
-	height:400px;
-background-image:url(../image/cover%20myweb.jpg);
-background-repeat:no-repeat;
-background-size:100% 400px;
+.image {
+	width: 100%;
+	height: 150px;
+	background-image: url(../image/cover%20myweb.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 150px;
 }
-.Main{
-margin-left:100px;
-margin-right:100px;
+.Main {
+	width: 80%;
+	height: 1275px;
+	margin-left: 150px;
+	margin-top: -10px;
+	border-left: solid #000 3px;
+	border-right: solid #000 3px;
+	background-color:#d4ffaa;
 }
-.Header{
-	width:100%;
-	height:500px;
+
+
+.carousel-inner > .item > img,  .carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+.background{
+	background:url(../image/backgroup.jpg);
+
 }
