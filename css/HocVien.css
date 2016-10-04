@@ -1,12 +1,9 @@
-.center_text {
-	width: 588px;
-	height: auto;
-	margin: 50px 0 0 100px;
+.center_text  {
+	width:90%;
+	margin-left:30px;
+	padding: 5px;
 	background-color: #ccc;
 	border-radius: 15px;
-	 box-shadow: 10px 10px 5px grey;
-	
-}
-.center_text p{
-padding:5px ;
+	box-shadow: 10px 10px 5px grey;
+	margin-bottom:20px;
 }
