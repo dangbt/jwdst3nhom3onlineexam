@@ -2,102 +2,95 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Admin sửa tài khoản</title>
-<link rel="stylesheet" type="text/css" href="css/Header.css"/>
-<link rel="stylesheet" type="text/css" href="css/Content.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+<title>Sửa Tài Khoản</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/lich.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/Header.css"/>
+<link rel="stylesheet" type="text/css" href="../css/Content.css"/>
+<link rel="stylesheet" type="text/css" href="../css/AdThemTK.css"/>
 
-<link rel="stylesheet" type="text/css" href="css/QLNHCH.css"/>
-<link rel="stylesheet" type="text/css" href="css/QLNHCHLinhVuData.css"/>
-<link rel="stylesheet" type="text/css" href="css/QuanLiCauHoi.css"/>
-<link rel="stylesheet" type="text/css" href="css/ThemCauHoi.css"/>
-<link rel="stylesheet" type="text/css" href="css/TaoMoiCauHoi.css"/>
-<link rel="stylesheet" type="text/css" href="css/AdminDangNhap.css"/>
-<link rel="stylesheet" type="text/css" href="css/TaoLinhVucMoi.css"/>
 </head>
 
 <body>
+<header >
+  <div class="thanh">
+    <div class="container">
+      <div class="grid">
+        <div class="indent-bottom">
+          <h1>
+            <a href="Học Viên.html">
+            <img src="../image/logo.jpg" />
+            </a>
+          </h1>
+          <nav>
+            <ul>
+            </ul>
+          </nav>
+        </div>
+        <div><img src="../image/197.jpg" alt style="width: 960px;"></div>
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="Left">
+    <ul class="list-group">
+      <li>
+        <a href="AdDSTK.html" class="list-group-item">
+        Trang chủ
+        </a>
+      </li>
+      <li>
+        <a href="AdDSTK.html" class="list-group-item">
+        Cập nhật tài khoản
+        </a>
+      </li>
+      <li>
+        <a href="AdDSQuyen.html" class="list-group-item">
+        Cấp quyền cho tài khoản
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="right">
+    <div class="calendar"><script>calendar()</script></div>
+  </div>
+  <div class="container">
+    <div class="main">
+        <div class="Main_content">
+        <div class="Top_Main_content">Sửa tài khoản</div>
+        <div class="Mid_Main_content">
+          <div class="Text_Mid_Main_content">
+            <div class="Text_Mid_Main">Họ tên :</div>
+            <input type="text" class="Input_Text_Mid_Main_contentn" value="Hồ Thị Trúc Vy" />
+          </div>
+          <div class="Text_Mid_Main_content">
+            <div class="Text_Mid_Main">ID :</div>
+            <input type="text" class="Input_Text_Mid_Main_content"  value="271589539"/>
+          </div>
+          <div class="Text_Mid_Main_content">
+            <div class="Text_Mid_Main">Số điện thoại :</div>
+            <input type="text" class="Input_Text_Mid_Main_content" value="0933054275"/>
+          </div>
+          <div class="Text_Mid_Main_content">
+            <div class="Text_Mid_Main">Email :</div>
+            <input type="text" class="Input_Text_Mid_Main_content" value="trucvy@gmai.com" />
+          </div>
+        </div>
+        <div class="Bottom_Main_content" > <a href="AdDSTK.html">
+          <input type="button" class="Left_btn" value="Hoàn tất " />
+          </a> <a href="AdDSTaiKhoan2.html">
+          <input type="button" class="Right_btn" value="Huỷ" />
+          </a> </div>
+      </div>
 
-<div class="Main">
-<!--Header: Start-->
-<div class="Header">
-    <a href="#" target="_blank"> <img src="image/cover myweb.jpg" width="100%" height="147" 
-         alt="image"  /></a>
-         <ul class="menu">
-         <li> <a href="#" target="_blank" style="color:#FFF"  > Trang chủ</a></li>
-         </ul>
-      
-</div>
-<!--Header: Stop-->
-
-<!--content: Start-->
-<div class="Content">
-<!--content: Stop-->
-<!--Left_content: Start-->
-<div class="Left_content">
-<div class="Left_menu">MAIN MENU</div>
-<ul class="Main_menuQLNHCH">
-<li><a href="AdDSTaiKhoan2.html"> Cập nhật tài khoản</a>
-</li>
-<li><a href="AdDSPhanQuyen.html"> Cấp quyền cho tài khoản</a>
-</li>
-</ul>
-</div>
-<!--Left_content: Stop-->
-
-<!--Center_content: Start-->
-
-<div class="Center_content">
-<div class="Main_content_taomoilinhvuc">
-<div class="Top_Main_content_Admin">Sửa tài khoản</div>
-<div class="Mid_Main_content">
-
-<div class="Text_Mid_Main_content">
-<div class="Input_Text_Mid_Main_content_Admin">Họ tên :</div>
-<input type="text" class="Input_Text_Mid_Main_content_Admin" value="Hồ Thị Trúc Vy" />
-</div>
-<div class="Text_Mid_Main_content">
-<div class="Input_Text_Mid_Main_content_Admin">ID :</div>
-<input type="text" class="Input_Text_Mid_Main_content_Admin"  value="271589539"/>
-</div>
-<div class="Text_Mid_Main_content">
-<div class="Input_Text_Mid_Main_content_Admin">Số điện thoại :</div>
-<input type="text" class="Input_Text_Mid_Main_content_Admin" value="0933054275"/>
-</div>
-<div class="Text_Mid_Main_content">
-<div class="Input_Text_Mid_Main_content_Admin">Email :</div>
-<input type="text" class="Input_Text_Mid_Main_content_Admin" value="trucvy@gmai.com" />
-</div>
-
-	
-</div>
-<div class="Bottom_Main_content_Taocauhoi" >
-<a href="AdDSTaiKhoan2.html"><input type="button" class="Left_btn" value="Hoàn tất " /></a>
-
-<a href="AdDSTaiKhoan2.html"><input type="button" class="Right_btn" value="Huỷ" /></a>
-
-</div>
-</div>
-
-
-</div>
-<!--Center_content: Stop-->
-
-<!--Right_content: Start-->
-<div class="Right_content">
-   
-</div>
-
-</div>
-</div>
-<!--Right_content: Stop-->
-
-<div class="Footer">
-
-
-
-</div>
-</div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="thanh"><div class="Text">Nhóm 3</div></div>
+</footer>
 </body>
 </html>

@@ -2,15 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Thêm Tài Khoản</title>
+<title>Thêm Mới Câu Hỏi</title>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
 <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/lich.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/Header.css"/>
 <link rel="stylesheet" type="text/css" href="../css/Content.css"/>
-<link rel="stylesheet" type="text/css" href="../css/AdThemTK.css"/>
-
+<link rel="stylesheet" type="text/css" href="../css/Thêm Mới Câu Hỏi.css"/>
 </head>
 
 <body>
@@ -38,18 +37,18 @@
   <div class="Left">
     <ul class="list-group">
       <li>
-        <a href="AdDSTK.html" class="list-group-item">
+        <a href="Quản Lí Câu Hỏi.html" class="list-group-item">
         Trang chủ
         </a>
       </li>
       <li>
-        <a href="AdDSTK.html" class="list-group-item">
-        Cập nhật tài khoản
+        <a href="Thêm Câu Hỏi.html" class="list-group-item">
+        Thêm câu hỏi
         </a>
       </li>
       <li>
-        <a href="AdDSQuyen.html" class="list-group-item">
-        Cấp quyền cho tài khoản
+        <a href="Tạo Lĩnh Vực Mới.html" class="list-group-item">
+        Tạo lĩnh vực mới
         </a>
       </li>
     </ul>
@@ -59,33 +58,50 @@
   </div>
   <div class="container">
     <div class="main">
-        <div class="Main_content">
-        <div class="Top_Main_content">Thêm tài khoản</div>
+      <div class="Main_content">
+        <div class="Top_Main_content">Lĩnh vực DataBase</div>
         <div class="Mid_Main_content">
           <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">Họ tên :</div>
+            <div class="Input_Text_Mid_Main_content">Nội dung câu hỏi: </div>
+            <textarea class="Input_Text_Mid"> </textarea>
+          </div>
+          <div class="Text_Mid_Main_content">
+            <div class="Input_Text_Mid_Main_content">Đáp án 1 : </div>
             <input type="text" class="Input_Text_Mid_Main_content" />
           </div>
           <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">ID :</div>
+            <div class="Input_Text_Mid_Main_content">Đáp án 2 : </div>
             <input type="text" class="Input_Text_Mid_Main_content" />
           </div>
           <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">Số điện thoại :</div>
+            <div class="Input_Text_Mid_Main_content">Đáp án 3 : </div>
             <input type="text" class="Input_Text_Mid_Main_content" />
           </div>
           <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">Email :</div>
+            <div class="Input_Text_Mid_Main_content">Đáp án 4 : </div>
             <input type="text" class="Input_Text_Mid_Main_content" />
+          </div>
+          <div class="Text_Mid_Main_content">
+            <div class="Input_Text_Mid_Main_content">Đáp án đúng : </div>
+            <div class="option">
+              <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
           </div>
         </div>
-        <div class="Bottom_Main_content" > <a href="AdDSTK.html">
-          <input type="button" class="Left_btn" value="Hoàn tất " />
-          </a> <a href="AdDSTK.html">
-          <input type="button" class="Right_btn" value="Huỷ" />
-          </a> </div>
+        <div class="Bottom_Main_content_Taocauhoi">
+          <a href="Câu Hỏi.html">
+          <button class="Left_btn">Thêm</button>
+          </a>
+          <a href="Câu Hỏi.html">
+          <button class="Right_btn">Huỷ</button>
+          </a>
+        </div>
       </div>
-
     </div>
   </div>
 </section>

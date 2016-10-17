@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Thêm Tài Khoản</title>
+<title>Sửa Quyền </title>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
 <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/lich.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/Header.css"/>
 <link rel="stylesheet" type="text/css" href="../css/Content.css"/>
-<link rel="stylesheet" type="text/css" href="../css/AdThemTK.css"/>
+<link rel="stylesheet" type="text/css" href="../css/AdThemQuyen.css"/>
 
 </head>
 
@@ -59,32 +59,29 @@
   </div>
   <div class="container">
     <div class="main">
-        <div class="Main_content">
-        <div class="Top_Main_content">Thêm tài khoản</div>
-        <div class="Mid_Main_content">
-          <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">Họ tên :</div>
-            <input type="text" class="Input_Text_Mid_Main_content" />
+       <div class="Main_content">
+          <div class="Top_Main_content">Thêm quyền truy cập</div>
+          <div class="Mid_Main_content">
+            <div class="Input_Mid_Main_content">ID :  
+                <input type="text" class="text_input" value="4068" />
           </div>
-          <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">ID :</div>
-            <input type="text" class="Input_Text_Mid_Main_content" />
+            <div class="Input_Mid_Main_content">
+              <div class="text_quyen">Quyền truy cập :</div>
+              <div class="option">
+                <select>
+                  <option value="1">Admin</option>
+                  <option value="2">Người quản trị kì thi</option>
+                  <option value="3">Người quản lí ngân hàng câu hỏi</option>
+                </select>
+              </div>
+            </div>
           </div>
-          <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">Số điện thoại :</div>
-            <input type="text" class="Input_Text_Mid_Main_content" />
-          </div>
-          <div class="Text_Mid_Main_content">
-            <div class="Text_Mid_Main">Email :</div>
-            <input type="text" class="Input_Text_Mid_Main_content" />
-          </div>
+          <div class="Bottom_Main_content"> <a href="AdDSQuyen.html">
+            <input type="button" class="Left_btn" value="Sửa" />
+            </a> <a href="AdDSQuyen.html">
+            <input type="button" class="Right_btn" value="Huỷ" />
+            </a> </div>
         </div>
-        <div class="Bottom_Main_content" > <a href="AdDSTK.html">
-          <input type="button" class="Left_btn" value="Hoàn tất " />
-          </a> <a href="AdDSTK.html">
-          <input type="button" class="Right_btn" value="Huỷ" />
-          </a> </div>
-      </div>
 
     </div>
   </div>
