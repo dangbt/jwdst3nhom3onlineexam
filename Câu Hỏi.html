@@ -23,16 +23,30 @@
             <img src="../image/logo.jpg" />
             </a>
           </h1>
-  <nav>
-            <ul>
-             
+          <nav>
+            <ul class="menu">
+              <li >
+                <a href="#" class="green" >
+                Tài Khoản
+                </a>
+              </li>
+              <li >
+                <a href="#" class="yellow" >
+                Thông Báo
+                </a>
+              </li>
+              <li >
+                <a href="#" class="red" >
+                Hỗ Trợ
+                </a>
+              </li>
             </ul>
-          </nav>        </div>
+          </nav>
+        </div>
         <div><img src="../image/197.jpg" alt style="width: 960px;"></div>
       </div>
     </div>
   </div>
-  
 </header>
 <section>
   <div class="Left">
@@ -42,98 +56,124 @@
         Trang chủ
         </a>
       </li>
-       <li>
+      <li>
         <a href="Thêm Câu Hỏi.html" class="list-group-item">
         Thêm câu hỏi
         </a>
       </li>
-       <li>
+      <li>
         <a href="Tạo Lĩnh Vực Mới.html" class="list-group-item">
-     Tạo lĩnh vực mới
+        Tạo lĩnh vực mới
         </a>
       </li>
-      
     </ul>
   </div>
   <div class="right">
-   <div class="calendar"><script>calendar()</script></div>
+    <div class="calendar"><script>calendar()</script></div>
   </div>
   <div class="container">
     <div class="main">
-  <div class="Main_content">
-          <div class="Top_Main_content">Lĩnh vực DataBase</div>
-          <div class="Mid_Main_content">
-            <table>
-              <tr>
-                <th>STT</th>
-                <th>Nội dung câu hỏi</th>
-                <th>Đáp án 1</th>
-                <th>Đáp án 2</th>
-                <th>Đáp án 3</th>
-                <th>Đáp án 4</th>
-                <th>Đáp án đúng</th>
-                <th></th>
-                <th></th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Nếu A...Z</td>
-                <td>A</td>
-                <td>B</td>
-                <td>C</td>
-                <td>D</td>
-                <td>A</td>
-                <td class="edit-cell"><a href="Sửa Câu Hỏi.html">Sửa</a></td>
-                <td class="delete-cell"  data-toggle="modal" data-target="#myModal"><a href="#">Xoá</a></td>
-              </tr>
-              <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td class="edit-cell"><a href="Sửa Câu Hỏi.html">Sửa</a></td>
-                <td class="delete-cell"  data-toggle="modal" data-target="#myModal"><a href="#">Xoá</a></td>
-              </tr>
-              <tr>
-                <td>100</td>
-                <td>Nếu A...Z</td>
-                <td>A</td>
-                <td>B</td>
-                <td>C</td>
-                <td>D</td>
-                <td>A</td>
-                <td class="edit-cell"><a href="Sửa Câu Hỏi.html">Sửa</a></td>
-                <td class="delete-cell" data-toggle="modal" data-target="#myModal"><a href="#">Xoá</a></td>
-              </tr>
-            </table>
-            <div class="modal fade" id="myModal" role="dialog">
-              <div class="modal-dialog"> 
-                
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title" style="color:#000">Warning</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>Bạn có chắc xoá?</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
-                  </div>
+      <div class="Main_content">
+        <div class="Top_Main_content">Lĩnh vực DataBase</div>
+        <div class="Mid_Main_content">
+          <table>
+            <tr>
+              <th>STT</th>
+              <th>Nội dung câu hỏi</th>
+              <th>Đáp án 1</th>
+              <th>Đáp án 2</th>
+              <th>Đáp án 3</th>
+              <th>Đáp án 4</th>
+              <th>Đáp án đúng</th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Nếu A...Z</td>
+              <td>A</td>
+              <td>B</td>
+              <td>C</td>
+              <td>D</td>
+              <td>A</td>
+              <td class="edit-cell">
+                <a href="Sửa Câu Hỏi.html">
+                Sửa
+                </a>
+              </td>
+              <td class="delete-cell"  data-toggle="modal" data-target="#myModal">
+                <a href="#">
+                Xoá
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td class="edit-cell">
+                <a href="Sửa Câu Hỏi.html">
+                Sửa
+                </a>
+              </td>
+              <td class="delete-cell"  data-toggle="modal" data-target="#myModal">
+                <a href="#">
+                Xoá
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>100</td>
+              <td>Nếu A...Z</td>
+              <td>A</td>
+              <td>B</td>
+              <td>C</td>
+              <td>D</td>
+              <td>A</td>
+              <td class="edit-cell">
+                <a href="Sửa Câu Hỏi.html">
+                Sửa
+                </a>
+              </td>
+              <td class="delete-cell" data-toggle="modal" data-target="#myModal">
+                <a href="#">
+                Xoá
+                </a>
+              </td>
+            </tr>
+          </table>
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title" style="color:#000">Warning</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Bạn có chắc xoá?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="Bottom_Main_content"> <a href="Thêm Câu Hỏi.html">
-            <button class="Left_btn">Thêm câu hỏi</button>
-            </a> <a href="Quản Lí Câu Hỏi.html">
-            <button class="Right_btn">Quay lại</button>
-            </a> </div>
-</div>
+        </div>
+        <div class="Bottom_Main_content">
+          <a href="Thêm Câu Hỏi.html">
+          <button class="Left_btn">Thêm câu hỏi</button>
+          </a>
+          <a href="Quản Lí Câu Hỏi.html">
+          <button class="Right_btn">Quay lại</button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
