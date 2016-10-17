@@ -1,31 +1,83 @@
-.Left_content {
-	width: 200px;
-	height: auto;
-	float: left;
-	margin: 50px 0 0 40px;
-	border-right:solid #ccc 2px;
-	
-}
-.Left_menu{
-	
-	padding-right:30px;
-	
-	
+/* CSS Document */
 
+.Left{
+	width: 250px;
+	height: auto;
+	float:left;
+	background-color: #9bba1f;
+	margin-left:30px;
+	margin-bottom: 20px;
+}
+.thongtin{
+	width:550px;
 }
 
-.Center_content {
-	width: 588px;
-	float: left;
-	height: auto;
+.center1{
+	width:100%;
+	margin-left: 350px;
+	float: center;
 }
-.Right_content {
-	height: 100%;
-	width: 180px;
+.right{
+	width: 250px;
+	height:auto;
 	float: right;
-	border-left: solid #666 2px;
-	background-color: #ccc;
+	background-color: #ca3535;
+	margin-right:30px;
+	margin-bottom: 20px;
 }
-.list-group{
-	 box-shadow: 10px 10px 5px grey;
+.button{
+	border-radius: 15px;
+	border:1px solid #cccccc;
+	background-color: #fff;
+	padding: 5px 15px;
+	outline: none;
+}
+.button:hover {background-color: #e7e7e7;}
+
+.jumbotron{
+	box-shadow: 5px 5px 10px;
+	background-color: white;
+}
+.input{
+	border-radius: 15px;
+	border:1px solid #cccccc;
+	background-color: #fff;
+	outline: none;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+
+	text-align: left;
+	padding: 8px;
+}
+.shadow{
+	box-shadow: 0px 0px 10px 1px;
+}
+.active{
+	background-color: #00bf00;
+}
+.main{
+	margin-left: 130px;
+	margin-bottom: 20px;
+	padding:50px 50px 50px 80px;
+	width:700px;
+	border-left: solid white 0px;
+	border-right: solid white 0px;
+	background-color: #ff9900;
+}
+body{
+	background-color: #f7f7f7;
+}
+.calendar{
+margin-top:20px;
+margin-left:8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+
 }
